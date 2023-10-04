@@ -1,0 +1,11 @@
+python3 test.py \
+  --user=root \
+  --password=root \
+  --host=localhost \
+  --port=5432 \
+  --db=ny_taxi \
+  --table_name=yellow_taxi_trips \
+  --url=https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow/yellow_tripdata_2021-01.csv.gz
+
+Co the su dung url nhu the nay : 
+https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2021-01.parquet
